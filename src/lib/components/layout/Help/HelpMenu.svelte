@@ -11,7 +11,7 @@
 	import Keyboard from '$lib/components/icons/Keyboard.svelte';
 	const i18n = getContext('i18n');
 
-	export let showDocsHandler: Function;
+	// export let showDocsHandler: Function;
 	export let showShortcutsHandler: Function;
 
 	export let onClose: Function = () => {};
